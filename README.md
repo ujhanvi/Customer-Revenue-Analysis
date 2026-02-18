@@ -1,76 +1,92 @@
-# Customer-Revenue-Analysis using PostgreSql
-📌 Project Overview
+# 🎵 Music Store Sales Analysis using PostgreSQL
 
-This project involves SQL-based analysis of the Chinook Music Store database using PostgreSQL.
-The objective was to analyze customer behavior, revenue patterns, artist performance, and genre popularity using structured query language.
+## 📌 Project Summary
 
-Relational tables including:
+This project presents a structured SQL-based analysis of the Chinook Music Store database using PostgreSQL.  
+The objective was to analyze sales data, customer purchasing behavior, artist performance, and genre trends to derive meaningful business insights.
 
-Customer
+This project demonstrates practical SQL skills, analytical thinking, and business-oriented data analysis suitable for a Junior Data Analyst role.
 
-Invoice
+---
 
-Invoice_Line
+## 🎯 Business Objectives
 
-Track
+The following key analytical questions were solved:
 
-Album
+- Which city generates the highest revenue?
+- Who is the best customer based on total spending?
+- What is the most popular music genre for each country?
+- Who is the top-spending customer in each country (including tie cases)?
+- How much has each customer spent on each artist?
+- Who are the top 10 Rock artists based on track count?
+- Which tracks are longer than the average track duration?
 
-Artist
+---
 
-Genre
+## 🗂 Dataset Information
 
-🛠 Tools & Technologies
+Database Used: Chinook Database (Digital Music Store)
 
-PostgreSQL
+The database includes the following relational tables:
 
-SQL
+- Customer
+- Invoice
+- Invoice_Line
+- Track
+- Album
+- Artist
+- Genre
 
-Relational Database Concepts
+This dataset simulates a real-world digital music store environment containing transactional sales data.
 
-📊 SQL Concepts Applied
+---
 
-INNER JOIN (Multiple Table Joins)
+## 🛠 Tools & Technologies
 
-GROUP BY
+- PostgreSQL
+- SQL
+- Relational Database Management System (RDBMS)
 
-Aggregate Functions (SUM, COUNT, AVG)
+---
 
-Subqueries
+## 📊 SQL Concepts Applied
 
-Common Table Expressions (CTE)
+- Multi-table INNER JOIN operations
+- Aggregation functions (SUM, COUNT, AVG)
+- GROUP BY for segmentation
+- Subqueries for advanced filtering
+- Common Table Expressions (CTE)
+- Window Functions (RANK, PARTITION BY)
+- Sorting and filtering for business insights
 
-Window Functions (RANK)
+---
 
-Data Filtering & Sorting
+## 📈 Key Insights Generated
 
-📈 Key Insights Generated
+- Identified revenue-generating cities for potential promotional strategies.
+- Determined high-value customers for targeted engagement.
+- Analyzed country-wise genre preferences.
+- Evaluated artist popularity based on purchase volume.
+- Measured customer-level spending behavior.
 
-Identified high-revenue cities for promotional strategy
+---
 
-Determined top spending customers per country
+## 📁 Project Structure
 
-Analyzed genre preferences across different countries
-
-Evaluated artist popularity based on purchase volume
-
-Measured customer-level spending distribution
 ```
-📁 Project Structure
 ├── Music_Store_Analysis.sql
-├── README.md
-└── Dataset (Chinook Database)
+├── Chinook_Database.sql
+└── README.md
 ```
-🚀 Learning Outcome
 
-This project strengthened my understanding of:
+---
 
-Complex SQL queries
+## 🚀 Learning Outcomes
 
-Business-oriented data analysis
+Through this project, I developed the ability to:
 
-Aggregation & grouping logic
-
-Handling tie cases using window functions
-
-Extracting actionable insights from relational databases
+- Work with structured relational databases.
+- Write complex SQL queries involving multiple joins.
+- Apply aggregation and ranking logic.
+- Handle tie cases using window functions.
+- Translate raw transactional data into meaningful business insights.
